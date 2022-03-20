@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'CheckOut.apps.CheckOutConfig'
+    'CheckOut.apps.CheckoutConfig'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'StripeCheckout.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,9 +118,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51Kf7zUB7huiAK0EmsU6P8NbGjEjKqcOW9WyR9ldtjsK6xrw2AMoEFrCV72bVdWkpACr7Tx0iP5NFiqbp90nwLDQ300UBy2HXCw'
+STRIPE_SECRET_KEY = 'sk_test_51Kf7zUB7huiAK0Emv7ar3KtDt5vBpblVE4YLb5tPaiJB3f1SuX81FCOYahw8sAZudsMlc7FSnGssUFjRE6VeytFF00la5MLtbm'
+
