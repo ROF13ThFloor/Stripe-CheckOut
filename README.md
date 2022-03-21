@@ -1,4 +1,4 @@
-# Setting up Stripe Subscribe mode  with Django and MongoDB 
+# Integrate Stripe Subscribe Service  with Django and MongoDB 
 
 in this project , we will integrate django and mongodb with stripe subscribe service . 
 
