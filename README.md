@@ -11,7 +11,8 @@ in order to save subscribe id and payment information web hook used and integrat
 1. Create virtual environment in python and activate it : 
 
 ```
-python3 -m venv venv && source venv/bin/activate
+python -m venv venv 
+source venv/bin/activate
 ```
 
 3. Install dependencies using requirements file :
