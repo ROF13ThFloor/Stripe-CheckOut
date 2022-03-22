@@ -65,11 +65,6 @@ def check_webhook(request):
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb = myclient["Customers"]
     mycol = mydb["purchaseInfo"]
-
-
-
-
-
     payload = request.body
     event = None
 
@@ -105,7 +100,6 @@ def check_webhook(request):
 
         }
         mycol.insert_one(info)
-        print('new infor added -----------------------')
         
     else:
         print('Unhandled event type {}'.format(event.type))
