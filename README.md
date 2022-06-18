@@ -1,3 +1,6 @@
+
+[![GitHub license](https://img.shields.io/github/license/ROF13ThFloor/Stripe-CheckOut)]([https://github.com/ssbostan/devops-bash-scripts/blob/master/LICENSE](https://github.com/ROF13ThFloor/Stripe-CheckOut/blob/master/LICENSE.md))
+
 # Integrate Stripe Subscribe Service  with Django and MongoDB 
 
 in this project , we will integrate django and mongodb with stripe subscribe service . 
